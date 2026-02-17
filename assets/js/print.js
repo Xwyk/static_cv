@@ -1,7 +1,7 @@
 // Load and display info
 async function loadInfos() {
   try {
-    const response = await fetch('data/infos.json');
+    const response = await fetch('assets/data/infos.json');
     const data = await response.json();
     
     document.querySelector('.name').textContent = data.firstName + ' ' + data.lastName;
@@ -24,7 +24,7 @@ async function loadInfos() {
 // Load competences
 async function loadCompetences() {
   try {
-    const response = await fetch('data/competences.json');
+    const response = await fetch('assets/data/competences.json');
     const competences = await response.json();
     const container = document.querySelector('.competences-grid');
     
@@ -54,7 +54,7 @@ async function loadCompetences() {
 // Load experiences
 async function loadExperiences() {
   try {
-    const response = await fetch('data/experiences.json');
+    const response = await fetch('assets/data/experiences.json');
     const experiences = await response.json();
     const container = document.querySelector('.experiences-list');
     
@@ -83,7 +83,7 @@ async function loadExperiences() {
 // Load diplomes
 async function loadDiplomes() {
   try {
-    const response = await fetch('data/diplomes.json');
+    const response = await fetch('assets/data/diplomes.json');
     const diplomes = await response.json();
     const container = document.querySelector('.diplomes-list');
     
@@ -108,7 +108,7 @@ async function loadDiplomes() {
 // Load passions
 async function loadPassions() {
   try {
-    const response = await fetch('data/passions.json');
+    const response = await fetch('assets/data/passions.json');
     const passions = await response.json();
     const container = document.querySelector('.passions-grid');
     
@@ -131,7 +131,7 @@ async function loadPassions() {
 // Load contact
 async function loadContact() {
   try {
-    const response = await fetch('data/contact.json');
+    const response = await fetch('assets/data/contact.json');
     const contacts = await response.json();
     const container = document.querySelector('.contact-grid');
     
