@@ -1,0 +1,5 @@
+favicon.ico
+robots.txt
+sitemaps.xml
+assets/data/*.json
+.claude

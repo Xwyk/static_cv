@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Nom du projet",
+        "techno": "Technologies utilisées",
+        "year": "2023",
+        "description": "Description du projet.<br>Vous pouvez utiliser <br> pour les sauts de ligne et <a href=\"url\">lien</a> pour ajouter des liens."
+    },
+    {
+        "name": "Autre projet",
+        "techno": "React / Node.js",
+        "year": "2022",
+        "description": "Description de ce que vous avez réalisé."
+    }
+]

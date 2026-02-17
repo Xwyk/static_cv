@@ -1,0 +1,20 @@
+[
+    {
+        "label": "Téléphone",
+        "icon": "📱",
+        "url": "tel:01.02.03.04.05",
+        "value": "01.02.03.04.05"
+    },
+    {
+        "label": "Email",
+        "icon": "✉️",
+        "url": "mailto:votre@email.com",
+        "value": "votre@email.com"
+    },
+    {
+        "label": "LinkedIn",
+        "icon": "💼",
+        "url": "https://www.linkedin.com/in/votre-profil/",
+        "value": "votre-profil"
+    }
+]

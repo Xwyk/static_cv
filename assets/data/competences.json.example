@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Nom de la compétence",
+        "icon": "🎯",
+        "level": 4
+    },
+    {
+        "name": "Autre compétence",
+        "icon": "💻",
+        "level": 3
+    }
+]

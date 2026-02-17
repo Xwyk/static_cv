@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="développeur fullstack spécialisé php symfony sur la région nantaise">
+    <title>Florian LEBOUL - PHP</title>
+    <link rel="stylesheet" href="assets/minified/css/app.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="sr-only">Menu</span>
+            </button>
+            <div id="nav-links" class="nav-links">
+                <a href="/#accueil" class="nav-link">Accueil</a>
+                <a href="/#competences" class="nav-link">Compétences</a>
+                <a href="/#experiences" class="nav-link">Expériences</a>
+                <a href="/#diplomes" class="nav-link">Diplômes</a>
+                <a href="/#projets" class="nav-link">Projets</a>
+                <a href="/#applications" class="nav-link">Applications</a>
+                <a href="/#passions" class="nav-link">Passions</a>
+                <a href="/#contact" class="nav-link">Contact</a>
+            </div>
+            <button id="print-btn" class="print-btn" type="button" title="Version imprimable">🖨️ Version Imprimable</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="accueil" class="section hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img alt="Photo de profil" class="profile-photo" width="250" height="250">
+                    <h1 class="name">Mon Nom</h1>
+                    <h2 class="job-title">Mon Job</h2>
+                    <p class="location"></p>
+                    <p class="education"></p>
+                    <p class="description"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Compétences</h2>
+                <div class="competences-grid"></div>
+            </div>
+        </section>
+
+        <section id="experiences" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Expériences Professionnelles</h2>
+                <div class="experiences-grid"></div>
+            </div>
+        </section>
+
+        <section id="diplomes" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Formation</h2>
+                <div class="diplomes-grid"></div>
+            </div>
+        </section>
+
+        <section id="projets" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Projets</h2>
+                <div class="projets-grid"></div>
+            </div>
+        </section>
+
+        <section id="applications" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Applications quotidiennes</h2>
+                <div class="apps-grid"></div>
+            </div>
+        </section>
+
+        <section id="passions" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Passions</h2>
+                <div class="passions-grid"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="section hidden">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span class="year"></span> - Florian LEBOUL</p>
+        </div>
+    </footer>
+
+    <script src="assets/minified/js/app.min.js"></script>
+</body>
+</html>

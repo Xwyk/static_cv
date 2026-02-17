@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Nom de l'application",
+        "icon": "https://url-du-favicon.com/favicon.ico",
+        "url": "https://url-de-l-application.com"
+    },
+    {
+        "name": "VSCode",
+        "icon": "https://code.visualstudio.com/favicon.ico",
+        "url": "https://code.visualstudio.com/"
+    }
+]

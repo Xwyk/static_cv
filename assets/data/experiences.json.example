@@ -1,0 +1,14 @@
+[
+    {
+        "year": "2020 - Aujourd'hui",
+        "company": "Nom de l'entreprise | Ville",
+        "title": "Intitulé du poste",
+        "description": "Description de vos missions et réalisations.<br>Utilisez <br> pour les sauts de ligne."
+    },
+    {
+        "year": "2018 - 2020",
+        "company": "Autre entreprise | Ville",
+        "title": "Autre poste",
+        "description": "Description de vos missions.<br>Ajoutez des détails sur vos accomplissements."
+    }
+]

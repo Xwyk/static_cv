@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Nom de la passion",
+        "icon": "🎯",
+        "description": "Courte description de cette passion"
+    },
+    {
+        "name": "Sport",
+        "icon": "🏃",
+        "description": "Pratique régulière de votre sport favori"
+    }
+]

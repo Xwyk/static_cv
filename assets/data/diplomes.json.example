@@ -1,0 +1,12 @@
+[
+    {
+        "year": "2020",
+        "school": "Nom de l'école | Ville",
+        "title": "Intitulé du diplôme"
+    },
+    {
+        "year": "2018",
+        "school": "Autre établissement | Ville",
+        "title": "Autre diplôme"
+    }
+]

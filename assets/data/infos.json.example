@@ -1,0 +1,9 @@
+{
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "position": "Votre Poste",
+    "city": "Ville",
+    "degree": "Bac+X",
+    "description": "Description de votre profil professionnel. Parlez de vos compétences, expériences et ce qui vous passionne.",
+    "photo": "https://url-vers-votre-photo.com/photo.jpg"
+}
