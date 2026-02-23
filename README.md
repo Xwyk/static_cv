@@ -1,6 +1,7 @@
 # CV Statique
 
 CV web statique et responsive, généré à partir de fichiers JSON.
+[![Quality Gate Status](https://sonar.xwyk.fr/api/project_badges/measure?project=static_cv&metric=alert_status&token=sqb_caa9333ca1625e06c95b3aba29d115f71d2c2144)](https://sonar.xwyk.fr/dashboard?id=static_cv)
 
 ## Structure du projet
 
