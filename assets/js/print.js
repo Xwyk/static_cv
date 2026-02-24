@@ -173,6 +173,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   
   // Auto-print after a short delay to ensure content is loaded
   setTimeout(() => {
-    window.print();
+    globalThis.print();
   }, 500);
 });
