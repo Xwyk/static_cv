@@ -626,15 +626,13 @@ footer {
   .nav-link {
     width: 100%;
     text-align: center;
+    padding: 0.6rem 1rem;
+    font-size: 1.1rem;
   }
   .nav-toggle {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-  }
-  .nav-link {
-    padding: 0.6rem 1rem;
-    font-size: 1.1rem;
   }
   .section {
     padding: 4rem 0;

@@ -288,7 +288,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
         behavior: 'smooth'
       });
 
-      if (navbar && navbar.classList.contains('nav-open')) {
+      if (navbar?.classList.contains('nav-open')) {
         navbar.classList.remove('nav-open');
         const navToggle = document.querySelector('.nav-toggle');
         if (navToggle) {
