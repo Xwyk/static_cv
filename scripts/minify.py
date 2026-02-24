@@ -12,7 +12,9 @@ FILES = [
 def minify_css(text: str) -> str:
     text = re.sub(r"/\*.*?\*/", "", text, flags=re.S)
     text = re.sub(r"\s+", " ", text)
-    text = re.sub(r"\s*([{}:;,])\s*", r"\1", text)
+    # Remove spaces before and after punctuation using lookarounds (safe)
+    text = re.sub(r"\s+(?=[\{\}:;,])", "", text)
+    text = re.sub(r"(?<=[\{\}:;,])\s+", "", text)
     text = text.replace(";}", "}")
     return text.strip()
 
@@ -22,7 +24,9 @@ def minify_js(text: str) -> str:
     text = re.sub(r"^\s*//.*$", "", text, flags=re.M)
     text = re.sub(r"\s+", " ", text)
     # Preserve spaces in template literals by not minifying inside ${}
-    text = re.sub(r"\s*([{}();,:=<>+\-*/&|!])\s*", r"\1", text)
+    # Remove spaces around punctuation using lookarounds (safe, avoids backtracking)
+    text = re.sub(r"\s+(?=[\{\}\(\);,:=<>+\-*/&|!])", "", text)
+    text = re.sub(r"(?<=[\{\}\(\);,:=<>+\-*/&|!])\s+", "", text)
     return text.strip()
 
 
